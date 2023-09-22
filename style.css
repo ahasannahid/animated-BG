@@ -1,0 +1,103 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ea9a8f, #0f70e5);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #3c4353;
+    width: 360px !important;
+    height: auto;
+    color: lightgray;
+    z-index: 9;
+}
+
+.card-title {
+    border-bottom: 1px solid rgba(	211, 211, 211, 0.3);
+    letter-spacing: 4px;
+    padding: 40px 0 30px 0;
+}
+.card-text {
+    letter-spacing: 3px;
+    font-size: smaller;
+    margin: 35px 0;
+}
+
+
+.cube {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    opacity: 0.1;
+    filter: blur(2px);
+    animation: start 2s infinite, end linear infinite;
+}
+
+@keyframes start{
+
+    0%, 100%{
+        transform: scale(1);
+        opacity: 0.1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes end{
+
+    0%, 100% {
+        opacity:0;
+    }
+    10%, 50%, 90% {
+        opacity: 0.1;
+    }
+}
+
+
+
+/* icons */
+.fa {
+    padding: 10px;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.fa-facebook {
+    background: #7091d4;
+    color: white !important;
+}
+
+.fa-phone {
+    background: #85b893;
+    color: white !important;
+}
+
+.fa-envelope{
+    background: #c48fa6;
+    color: white !important;
+}
