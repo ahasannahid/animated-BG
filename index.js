@@ -1,5 +1,5 @@
-function createcubes() {
-    const numcubes = 150; 
+function createCubes() {
+    const numcubes = 100; 
 
     for (let i = 0; i < numcubes; i++) {
         const cube = document.createElement("div");
@@ -11,4 +11,4 @@ function createcubes() {
     }
 }
 
-createcubes();
+createCubes();
