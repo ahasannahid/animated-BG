@@ -12,6 +12,21 @@ body {
     overflow: hidden;
 }
 
+.section{
+    height: 240px !important;
+    margin-top: 150px;
+}
+
+.hr {
+    text-align: center;
+  }
+  
+.hr-line {
+    
+    width: 90%; 
+    
+  }
+  
 .card {
     background-color: #3c4353;
     width: 360px !important;
@@ -23,13 +38,12 @@ body {
 .card-title {
     letter-spacing: 4px;
     padding: 5px 0 5px 0px;
-    font-weight: 500px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .card-text {
     letter-spacing: 3px;
-    font-size: smaller;
-    
+    font-size: 12px;
+    opacity: 0.8;
 }
 
 
@@ -70,9 +84,9 @@ body {
 /* icons */
 .fa {
     padding: 10px;
-    font-size: 14px;
-    width: 30px;
-    height: 30px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
